@@ -1,4 +1,4 @@
-# password_genorator
+# password_generator
 An in terminal password generator!
 
 ## Acknowledgements
