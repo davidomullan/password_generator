@@ -19,8 +19,12 @@ def weak_pass(length):
 
 print("Password Generator:\n")
 
-len_pass = input("How long should your password be? ")
-len_pass = int(len_pass)
+while True:
+    try:
+        len_pass = int(input("How long should your password be? "))
+        break
+    except ValueError:
+        print("Please enter a number!\n")
 
 form_pass = ""
 poss_form = ["Strong", "strong", "S", "s", "Medium", "medium", "M", "m", "Weak", "weak", "W", "w"]
@@ -31,8 +35,8 @@ password = ""
 
 
 while True:
-    print("\nWhich format would you like?")
-    form_pass = input("Strong, Medium, Weak\n\n")
+    print("\nStrong, Medium, Weak")
+    form_pass = input("Which format would you like? ")
     if form_pass in poss_form:
         break
     else:
@@ -45,4 +49,4 @@ elif form_pass in medium:
 else:
     password = weak_pass(len_pass)
 
-print(password)
+print("\nPassword:", password)
