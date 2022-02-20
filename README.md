@@ -6,7 +6,7 @@
 ## Acknowledgments
 - 'password_generator.py' Developed by [David OMullan](https://github.com/davidomullan)
 
-![Image](Example Execution.png "Example Execution")
+![Image](Example_Execution.png "Example Execution")
 
 
 ## Software
