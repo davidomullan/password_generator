@@ -3,11 +3,10 @@
 
 ---
 
-## Acknowledgments
-- 'password_generator.py' Developed by [David OMullan](https://github.com/davidomullan)
-
 ![Image](Example_Execution.png "Example Execution")
 
+## Acknowledgments
+- 'password_generator.py' Developed by [David OMullan](https://github.com/davidomullan)
 
 ## Software
 Developed with [Python 3.9.10] (https://www.python.org/download/releases/3.0/)
